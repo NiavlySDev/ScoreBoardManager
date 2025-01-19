@@ -53,18 +53,19 @@ public class ScoreBoard {
         }
     }
 
-    public void addLine(Line line){
+    private void addLine(Line line){
         lines.add(line);
         maj();
     }
     public void addLine(int i, String text, ChatColor color){
+        i=100-i;
         addLine(new Line(i, text, color));
     }
     public void removeLine(int i){
         lines.remove(i);
         maj();
     }
-    public void updateLine(int i, Line line){
+    private void updateLine(int i, Line line){
         for(Line l : lines){
             if(l.getLine() == i){
                 l.setText(line.getText());
@@ -74,6 +75,7 @@ public class ScoreBoard {
         }
     }
     public void updateLine(int i, String text, ChatColor color){
+        i = 100-i;
         updateLine(i, new Line(i, text, color));
     }
 }
