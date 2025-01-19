@@ -16,7 +16,7 @@ public class ScoreBoard {
     private Scoreboard board;
 
 
-    public ScoreBoard(Player p, List<Line> lines) {
+    public ScoreBoard(Player p) {
         this.p = p;
         this.lines = new ArrayList<>();
     }
@@ -56,6 +56,9 @@ public class ScoreBoard {
     public void addLine(Line line){
         lines.add(line);
         maj();
+    }
+    public void addLine(int i, String text, ChatColor color){
+        addLine(new Line(i, text, color));
     }
     public void removeLine(int i){
         lines.remove(i);
