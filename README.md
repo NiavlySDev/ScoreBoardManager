@@ -7,6 +7,27 @@ Projet concu pour gérer les Scoreboard personalisés pour les joueurs Minecraft
 - Gestion des scoreboard personalisés facilement.
 - Scoreboard personnel.
 
+## Installation
+
+1. Mettez JitPack dans votre pom:
+
+   ```xml
+      <repository>
+         <id>jitpack.io</id>
+         <url>https://jitpack.io</url>
+      </repository>
+   ```
+   
+2. Mettez ensuite le repo jitpack dans les dependencies (Trouvez la derniere version sur: https://jitpack.io/#NiavlySDev/BigNumbers)
+
+   ```xml
+      <dependency>
+         <groupId>com.github.NiavlySDev</groupId>
+         <artifactId>ConfigDataManager</artifactId>
+         <version>[Tag] (Exemple: v1.3)</version>
+      </dependency>
+   ```
+
 ## Contribution
 
 Les contributions sont les bienvenues ! Suivez les étapes ci-dessous pour contribuer :
