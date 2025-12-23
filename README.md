@@ -18,7 +18,7 @@ Projet concu pour gérer les Scoreboard personalisés pour les joueurs Minecraft
       </repository>
    ```
    
-2. Mettez ensuite le repo jitpack dans les dependencies (Trouvez la derniere version sur: https://jitpack.io/#NiavlySDev/BigNumbers)
+2. Mettez ensuite le repo jitpack dans les dependencies (Trouvez la derniere version sur: https://jitpack.io/#NiavlySDev/ScoreboardManager)
 
    ```xml
       <dependency>
