@@ -23,7 +23,7 @@ Projet concu pour gérer les Scoreboard personalisés pour les joueurs Minecraft
    ```xml
       <dependency>
          <groupId>com.github.NiavlySDev</groupId>
-         <artifactId>ConfigDataManager</artifactId>
+         <artifactId>ScoreboardManager</artifactId>
          <version>[Tag] (Exemple: v1.3)</version>
       </dependency>
    ```
