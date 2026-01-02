@@ -33,8 +33,9 @@ public class ScoreboardManager {
     public ScoreboardManager(Player player, String title) {
         this.player = player;
         this.scoreboard = Bukkit.getScoreboardManager().getNewScoreboard();
-        this.objective = scoreboard.registerNewObjective("board", "dummy", title);
+        this.objective = scoreboard.registerNewObjective("board", "dummy");
         this.objective.setDisplaySlot(DisplaySlot.SIDEBAR);
+        this.objective.setDisplayName(title);
         player.setScoreboard(scoreboard);
     }
 
